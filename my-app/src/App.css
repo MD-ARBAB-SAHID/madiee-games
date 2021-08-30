@@ -1,0 +1,29 @@
+.Outer{
+  padding: 10%;
+}
+.Inner{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 80%;
+  background-color: rgba(148, 142, 142, 0.781);
+ border: .3rem solid black;
+  border-radius:.4rem ;
+  margin:auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.Inner a{
+  padding: 1rem;
+  margin: 2rem;
+  border-radius: .3rem;
+  border: .2rem solid black;
+  text-decoration: none;
+  background-color: rgb(11, 187, 11);
+  color: black;
+
+}
+.Inner a:hover{
+  background-color: green;
+}
